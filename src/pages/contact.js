@@ -1,8 +1,9 @@
 import React from "react";
+import Layout from "../components/Layout";
 
 const ContactPage = () => {
   return (
-    <div>
+    <Layout>
       <h1>Get in touch.</h1>
       <ul>
         <li>
@@ -15,7 +16,7 @@ const ContactPage = () => {
           Twitter: <a href="/">@uptheirons1978</a>
         </li>
       </ul>
-    </div>
+    </Layout>
   );
 };
 
