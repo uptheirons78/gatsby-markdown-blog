@@ -1,7 +1,16 @@
 import React from "react";
+import { Link } from "gatsby";
 
-export default () => (
-  <div>
-    <h1>Gatsby Markdown Blog</h1>
-  </div>
-);
+const IndexPage = () => {
+  return (
+    <div>
+      <h1>Hello.</h1>
+      <h2>I'm Mauro, a full-stack developer living in Rome, Italy</h2>
+      <p>
+        Need a developer ? <Link to="/contact">Contact me</Link>
+      </p>
+    </div>
+  );
+};
+
+export default IndexPage;
