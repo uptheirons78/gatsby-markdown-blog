@@ -1,0 +1,31 @@
+{
+  "name": "gatsby-markdown-blog",
+  "private": true,
+  "description": "Blog Website built with Gatsby and Markdown posts",
+  "version": "0.1.0",
+  "author": "Mauro Bono <mauro@maurobono.com> (https://www.maurobono.com)",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+  },
+  "dependencies": {
+    "gatsby": "^2.15.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uptheirons78/gatsby-markdown-blog"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
