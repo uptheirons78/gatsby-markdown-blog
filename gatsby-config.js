@@ -5,5 +5,9 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: "Gatsby Markdown Blog",
+    author: "Mauro Bono",
+  },
   plugins: ["gatsby-plugin-sass"],
 };
