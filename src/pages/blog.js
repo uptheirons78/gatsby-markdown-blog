@@ -26,16 +26,16 @@ const BlogPage = () => {
   return (
     <Layout>
       <h1>Blog Page</h1>
-      <ol>
+      <ol className="posts">
         {posts.map(post => {
           const { title, date } = post.node.frontmatter;
           const { id } = post.node;
           const { slug } = post.node.fields;
           return (
-            <li key={id}>
+            <li key={id} className="post">
               <Link to={`/blog/${slug}`}>
                 <h2>{title}</h2>
-                <p>{date}</p>
+                <p>Published: {date}</p>
               </Link>
             </li>
           );
