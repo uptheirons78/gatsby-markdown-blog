@@ -14,7 +14,6 @@ const Footer = () => {
 
   const { author } = data.site.siteMetadata;
   const currentYear = new Date().getFullYear();
-  console.log(author);
 
   return (
     <footer>
